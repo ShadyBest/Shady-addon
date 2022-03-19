@@ -1,0 +1,23 @@
+Q: Why does my game crashes when loading up/doesn't load up at all?
+A: Remove levelhead, though apparently some versions of Levelhead don't have that problem. Not having patcher also causes this problem.
+
+Q: How does the mithril macro return work?
+A: You need to click on every spot of the path with the mithril marker keybind (needs to be in order) to add a path. After doing that, run /aotvtest to see if it'll work.
+   If it doesn't work because, you can reset it by typing in /aotvtest clear. If only the last one doesn't work, just use the keybind on the last spot so it'll get removed.
+   However, this won't work for any other spot but the last one, since the order would be messed up then.
+
+Q: What failsafes should i use?
+A: Enable "Use Best Failsafes". It'll use the best failsafes for all macros (except nuker).
+
+Q: Is this rat?
+A: yes.
+
+Q: How do i get into the discord
+A: discord.gg/shadyaddon
+
+Q: How do i get into the private discord
+A: You don't.
+
+Q: Why is my game crashing?
+A: close minecraft, go to .minecraft/config/shadyaddon/config.toml, open it in notepad, search for macro_keybind,set it to any number between 0 and 8,
+   save it and try again. If that doesn't work, delete the config.toml file. That will reset all your config but it fixes 100% of the time.
